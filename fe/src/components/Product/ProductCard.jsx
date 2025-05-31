@@ -19,6 +19,7 @@ const ProductCard = () => {
       category: "Nhà hàng",
       img: "/img/motor.png",
       features: ["Xem thực tế", "Dùng thử"],
+      link:'https://antmotor.vn'
     },
     {
       id: 3,
@@ -27,6 +28,7 @@ const ProductCard = () => {
       category: "Thời trang",
       img: "/img/robotic.png",
       features: ["Xem thực tế", "Dùng thử"],
+      link:'https://roboticsecommerce.wisdombrain.org/'
     },
     {
       id: 4,
@@ -35,6 +37,7 @@ const ProductCard = () => {
       category: "Thời trang",
       img: "/img/wisdom_robotic.png",
       features: ["Xem thực tế", "Dùng thử"],
+      link:'https://wisdomrobotics.org/'
     },
     {
       id: 5,
@@ -43,6 +46,7 @@ const ProductCard = () => {
       category: "Thời trang",
       img: "/img/car_page.png",
       features: ["Xem thực tế", "Dùng thử"],
+      link:'https://cloudwisdom.wisdombrain.org/cloudproduct'
     }
   ];
 
