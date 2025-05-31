@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  vite-app:
+    build: .
+    ports:
+      - "5177:5177"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    container_name: vite-local
