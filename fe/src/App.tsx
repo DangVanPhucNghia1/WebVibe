@@ -4,7 +4,6 @@ import HomePage from "./pages/Homepages";
 import ProductPage from "./pages/Productpage";
 import AboutUsPage from "./pages/AboutUsPages";
 import ContactPage from "./pages/ContactPage";
-
 function App() {
 
 
