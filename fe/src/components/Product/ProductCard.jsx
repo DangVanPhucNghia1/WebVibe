@@ -3,49 +3,41 @@ import React, { useState } from "react";
 const ProductCard = () => {
   const allProducts = [
 
+   
     {
       id: 1,
-      name: "Mẫu Website Bất động sản A",
-      price: "4,000,000 VND",
-      category: "Bất động sản",
-      img: "/img/homepage/website_bg_makingYourDream.png",
-      features: ["Xem thực tế", "Dùng thử"],
-      link: 'https://marketing.wisdombrain.org/home'
-    },
-    {
-      id: 2,
       name: "Mẫu Website Nhà hàng B",
       price: "3,000,000 VND",
       category: "Nhà hàng",
       img: "/img/motor.png",
-      features: ["Xem thực tế", "Dùng thử"],
+      features: ["Xem thực tế"],
       link:'https://antmotor.vn'
     },
     {
-      id: 3,
+      id: 2,
       name: "Mẫu Website Thời trang 09",
       price: "3,500,000 VND",
       category: "Thời trang",
       img: "/img/robotic.png",
-      features: ["Xem thực tế", "Dùng thử"],
+      features: ["Xem thực tế"],
       link:'https://roboticsecommerce.wisdombrain.org/'
     },
     {
-      id: 4,
+      id: 3,
       name: "Mẫu Website Thời trang 10",
       price: "3,500,000 VND",
       category: "Thời trang",
       img: "/img/wisdom_robotic.png",
-      features: ["Xem thực tế", "Dùng thử"],
+      features: ["Xem thực tế"],
       link:'https://wisdomrobotics.org/'
     },
     {
-      id: 5,
+      id: 4,
       name: "Mẫu Website Thời trang 11",
       price: "3,500,000 VND",
       category: "Thời trang",
       img: "/img/car_page.png",
-      features: ["Xem thực tế", "Dùng thử"],
+      features: ["Xem thực tế"],
       link:'https://cloudwisdom.wisdombrain.org/cloudproduct'
     }
   ];
@@ -145,9 +137,7 @@ const ProductCard = () => {
                   {product.features[0]}
                 </a>
 
-                <button className="btn-hover-gradient flex-1 py-2 rounded-lg transition-colors">
-                  {product.features[1]}
-                </button>
+              
               </div>
             </div>
           </div>

@@ -27,13 +27,6 @@ const Section3 = ({onScrollToSection4}) => {
       link: "https://wisdomrobotics.org/",
     },
     {
-      image: "/img/homepage/website_bg_makingYourDream.png",
-      video: "/video/marketing.mp4",
-      title: "Website MarkeTing",
-      category: "Marketing",
-      link: "https://marketing.wisdombrain.org/home",
-    },
-    {
       image: "/img/homepage/website_bg_pizza.png",
       video: "/video/construction.mp4",
       title: "Website Quảng Bá",
